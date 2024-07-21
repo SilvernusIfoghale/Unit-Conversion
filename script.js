@@ -28,13 +28,13 @@ btn.addEventListener("click", (e) => {
     )} gallons | ${inputData} gallons = ${(inputData / 0.264).toFixed(
       2
     )} liters  `;
-    volumeText.textContent = length;
+    volumeText.textContent = volume;
 
     mass = `${inputData} kilos = ${(inputData * 2.204).toFixed(
       2
     )} pounds | ${inputData} pounds = ${(inputData / 2.204).toFixed(
       2
     )} kilos  `;
-    massText.textContent = length;
+    massText.textContent = mass;
   }
 });
